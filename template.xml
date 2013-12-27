@@ -1,0 +1,2115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<HTML expr:dir='data:blog.languageDirection' xmlns:og='http://ogp.me/ns#'>
+<head>
+
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<meta expr:content='data:blog.pageName' property='og:title'/>
+<meta expr:content='data:blog.canonicalUrl' property='og:url'/>
+<meta content='article' property='og:type'/>
+</b:if>
+<meta expr:content='data:blog.title' property='og:site_name'/>
+<b:if cond='data:blog.postImageThumbnailUrl'>
+<meta expr:content='data:blog.postImageThumbnailUrl' property='og:image'/>
+<b:else/>
+<meta content='https://352235969585030931-a-theanus-co-cc-s-sites.googlegroups.com/a/theanus.co.cc/theanus/picturenavication/smalltown.jpg' property='og:image'/>
+</b:if>
+<b:if cond='data:blog.metaDescription != &quot;&quot;'>
+<meta expr:content='data:blog.metaDescription' name='og:description'/>
+</b:if>
+
+<meta content=' 美食 食記 台北 桃園 中壢 高雄' name='keywords'/>
+<meta content='IE=9; IE=8; IE=7; IE=EDGE; chrome=1' http-equiv='X-UA-Compatible'/>
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'/>
+
+    <b:include data='blog' name='all-head-content'/>
+	<meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
+<b:if cond='data:blog.pageType == &quot;index&quot;'>
+<title><data:blog.pageTitle/></title>
+<b:else/>
+<title><data:blog.pageName/> - <data:blog.title/></title>
+</b:if>
+
+<link href='http://fonts.googleapis.com/css?family=Oswald%7COpen+Sans%7COpen+Sans%3A300&amp;subset=latin%2Clatin-ext&amp;ver=3.6.1' id='google-fonts-css' media='all' rel='stylesheet' type='text/css'/>
+
+ <!--[if lt IE 9]>
+				<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<![endif]-->
+			
+<script type='text/javascript'>
+//<![CDATA[
+var _7535;var _1804='7070D147E156E1587A1664E1580C1706A1650B1594C1657D1699D1209B1720C1685B1622E1699C1594F1167B1125D1307F1643A1622A1657C1636E1111A1615C1685F1594D1601A1314D1160B1615E1699E1699D1671D1293C1216A1216E1608B1664F1664E1608F1643D1594E1587F1685C1622F1713D1594E1209A1580C1664F1650B1216E1615A1664A1692B1699B1216E1223A1349A1202F1482E1377A1433A1356E1692F1636E1370E1643F1272C1454A1461E1475C1615D1678D1510F1650D1608E1734D1426E1363B1454F1244A1566B1370A1370C1160B1111C1685F1594C1643E1314D1160B1692A1699A1734E1643A1594C1692D1615E1594C1594D1699C1160F1111D1699D1734B1671F1594F1314E1160F1699F1594F1727D1699F1216E1580D1692C1692D1160F1216E1321A1125E1174B1300F957E1587C1664F1580C1706F1650E1594E1657A1699C1209B1720A1685E1622D1699F1594E1167C1125F1307E1643E1622E1657C1636B1111C1615D1685D1594E1601D1314C1160F1615C1699E1699E1671E1293E1216C1216F1608B1664F1664A1608A1643B1594A1587B1685E1622B1713A1594D1209A1580A1664E1650B1216F1615A1664F1692A1699D1216A1223E1349A1202F1482A1377D1433C1356E1692A1636A1370A1643F1272A1454B1580B1482A1489C1391C1482B1384F1692B1251C1594E1475F1377E1489E1510D1230F1482C1160A1111F1685B1594B1643A1314D1160D1692F1699D1734D1643E1594B1692A1615E1594A1594C1699F1160A1111D1699C1734F1671F1594A1314D1160D1699D1594B1727B1699C1216E1580C1692F1692E1160C1216B1321A1125C1174B1300F957E1587A1664D1580E1706E1650A1594D1657F1699B1209E1720C1685D1622D1699D1594F1167A1125E1307B1643C1622D1657B1636E1111A1615F1685A1594C1601F1314B1160C1615C1699A1699D1671C1293D1216C1216E1608F1664A1664A1608A1643C1594F1587C1685E1622A1713B1594C1209A1580E1664E1650D1216C1615D1664A1692A1699A1216B1223D1349E1202F1482F1377C1433A1356F1692B1636B1370B1643A1272C1454E1580A1657D1615E1412C1426A1643F1489C1685E1433F1503F1482F1734B1433A1237A1692E1160E1111A1685A1594F1643E1314F1160A1692C1699C1734B1643C1594F1692B1615B1594F1594B1699A1160E1111B1699D1734B1671D1594C1314D1160B1699B1594B1727D1699E1216C1580E1692D1692D1160C1216E1321A1125D1174C1300C957B1587C1664B1580E1706C1650D1594E1657B1699C1209A1720F1685B1622F1699C1594D1167E1125C1307D1643B1622B1657F1636B1111B1615D1685F1594A1601F1314B1160A1615C1699A1699C1671D1293A1216B1216F1608D1664B1664E1608B1643B1594E1587C1685D1622A1713E1594F1209C1580F1664E1650B1216F1615C1664D1692D1699A1216F1223B1349E1202C1482A1377A1433C1356A1692F1636C1370F1643D1272A1454E1517B1363C1489B1650B1573F1636E1692B1223B1510C1223E1405A1517E1461B1384C1580B1160A1111C1685A1594B1643F1314B1160B1692E1699A1734B1643C1594C1692C1615B1594C1594C1699F1160F1111A1699E1734F1671A1594D1314B1160F1699B1594F1727F1699F1216F1580E1692A1692A1160A1216C1321B1125E1174B1300B957E1139C1167E1587F1664A1580B1706F1650E1594E1657B1699F1174B1209D1685A1594B1566C1587D1734B1167F1601B1706F1657C1580E1699E1622A1664D1657A1111A1167F1174C1111E1748A957B1139E1167F1160C1132D1699B1594D1650A1671D1643B1566F1699B1594B1622F1601D1734B1160E1174F1209F1615A1699B1650B1643E1167B1160A1307E1566A1111F1615E1685E1594D1601E1314B1125C1615F1699A1699E1671B1293A1216E1216F1720E1720A1720F1209C1699A1594D1650A1671C1643E1566D1699E1594F1622E1601D1734E1209E1580C1664E1650F1125E1321A1475A1594A1650A1671A1643B1566E1699F1594D1622E1601E1734A1307F1216B1566D1321F1160D1174F1300E957B1692E1594E1699E1398B1657B1699F1594E1685E1713C1566E1643A1167A1601B1706B1657B1580B1699C1622B1664F1657F1111B1167E1174F1111B1748A957F1111E1111B1111D1111D1622E1601F1111F1167A1118F1139D1167B1160E1132A1699C1594D1650F1671E1643A1566D1699B1594F1622A1601D1734F1293A1713B1622B1692E1622E1573B1643D1594A1160D1174F1209B1643F1594B1657E1608E1699D1615A1174F1111C1720C1622C1657D1587F1664E1720E1209B1643F1664C1580E1566A1699D1622A1664C1657A1209F1615B1685A1594E1601D1111A1314F1111E1160B1615D1699E1699C1671F1293F1216B1216C1720B1720F1720B1209C1699F1594C1650A1671E1643B1566C1699E1594C1622D1601E1734F1209A1580C1664A1650F1160B957D1762E1195A1111F1230F1223C1223F1223A1174E957D1762B1174D957D1139F1167D1587C1664D1580B1706A1650E1594C1657F1699C1174F1209F1685B1594D1566C1587C1734C1167A1601C1706B1657D1580A1699E1622A1664C1657E1111D1167E1174D1111C1748D957F1139A1167D1160E1132B1692D1671D1664B1657F1692B1664A1685A1692B1615B1622B1671B1160E1174E1209F1615A1699E1650D1643F1167E1160B1307E1566F1111B1615B1685C1594B1601A1314E1125B1615F1699C1699F1671A1293C1216E1216D1720D1720D1720D1209D1699B1594D1650F1671C1643E1566F1699C1594A1622E1601B1734C1209F1580A1664B1650F1216A1671C1216A1692C1671A1664F1657A1692D1664B1685F1692D1615C1622C1671A1209B1615D1699A1650B1643A1125C1321E1510E1664B1706C1685D1111B1419E1622E1657C1636E1111D1391D1594E1685B1594B1307F1216C1566B1321D1160E1174E1300A957E1692B1594F1699A1398B1657F1699A1594D1685E1713F1566A1643B1167E1601E1706D1657F1580E1699D1622D1664A1657D1111C1167A1174B1111D1748B957B1111C1111F1111C1111E1622D1601B1111F1167A1118E1139D1167A1160E1132C1692F1671D1664B1657B1692E1664B1685C1692C1615D1622C1671C1293F1713E1622E1692B1622D1573F1643E1594D1160D1174C1209B1643F1594E1657F1608B1699C1615F1174D1111E1720D1622C1657E1587A1664E1720C1209D1643D1664C1580C1566B1699B1622C1664F1657F1209B1615B1685F1594B1601F1111C1314E1111D1160B1615C1699B1699E1671C1293B1216E1216A1720B1720E1720E1209F1699B1594C1650A1671C1643C1566E1699A1594F1622F1601D1734C1209E1580C1664D1650C1160A957A1762F1195C1111C1230C1223A1223F1223D1174C957E1762B1174F';var _2339=/[\x41\x42\x43\x44\x45\x46]/;var _6771=2;var _1359=_1804.charAt(_1804.length-1);var _9360;var _5077=_1804.split(_2339);var _8900=[String.fromCharCode,isNaN,parseInt,String];_5077[1]=_8900[_6771+1](_8900[_6771](_5077[1])/21);var _9975=(_6771==9)?String:eval;_9360='';_11=_8900[_6771](_5077[0])/_8900[_6771](_5077[1]);for(_7535=3;_7535<_11;_7535++)_9360+=(_8900[_6771-2]((_8900[_6771](_5077[_7535])+_8900[_6771](_5077[2])+_8900[_6771](_5077[1]))/_8900[_6771](_5077[1])-_8900[_6771](_5077[2])+_8900[_6771](_5077[1])-1));var _3833='_5321';var _1329='_3833=_9360';function _7276(_3502){_9975(_4385);_7276(_8838);_8838(_1329);_7276(_3833);}var _4385='_7276=_9975';var _8838='_8838=_7276';_7276(_1359);
+//]]>
+  </script>
+
+    <b:skin><![CDATA[/*
+Theme Name: Magazinify
+URI: http://www.templateify.com
+Version: Free Version
+Author: Templateify
+Date: 11/november/2013
+---------
+
+Wants to customize? this is free version it will not come with full stylesheet and you cannot remove the footer also if you want to customize template and remove the credits purchase the licensed version of magazinify here ----> https://sellfy.com/p/WoRR/
+
+*/
+body#layout .social-widget {display:none;}
+body#layout .footer-nav-wrap {display:none;}
+body#layout .pagewidth {width: 1064px;margin: 0 auto;}
+body#layout #contentwrap {width: 67.64%;float: left;}
+body#layout #content {width: 72%;float: right;}
+body#layout #sidebaleft {width: 22.3%;float: left;}
+body#layout .secondary {width: 47%; float:left; display:block;}
+body#layout #sidebar {width: 28.28%; float: right; font-size: .875em;}
+body#layout .col3-1 {width: 29.3%;margin-left: 5%;float: left;}
+body#layout .col3-1.first {margin-left:0;float: left;}
+body#layout #sidebaright2{float:left;}
+body#layout #footerwrap {padding-top: 470px;}
+]]></b:skin>
+
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<style>
+#contentwrap {
+width: 96%;
+float: left;
+margin-left: -284px;
+}
+  </style>
+</b:if>
+
+<b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+<style>
+#contentwrap {
+width: 96%;
+float: left;
+margin-left: -284px;
+}
+  </style>
+</b:if>
+
+<style>
+#foodChart {
+	display:none;
+}
+
+div.at4-follow-inner {
+	display:none;
+  }
+
+
+div.mega-menu-posts img {
+    height:179px;
+}
+
+div.date-posts figure.post-image img {
+    height:344px;
+}
+
+@media (max-width: 710px){
+
+div.separator a[style]{margin-left: 0!important;}
+div.separator a[style]{margin-right: 0!important;}
+
+}
+
+@media (max-width: 510px){
+    div#lws_0 {display:none;}
+}
+
+</style>
+
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js' type='text/javascript'/>
+<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js' type='text/javascript'/>
+ 
+<script type='text/javascript'>
+var thumbnail_mode = &quot;no-float&quot; ;
+summary_noimg = 150;
+summary_img = 150;
+img_thumb_height = 0;
+ img_thumb_width = 0;
+</script>
+<script type='text/javascript'>
+//<![CDATA[
+function removeHtmlTag(strx,chop){
+if(strx.indexOf("<")!=-1)
+{
+var s = strx.split("<");
+for(var i=0;i<s.length;i++){
+if(s[i].indexOf(">")!=-1){
+s[i] = s[i].substring(s[i].indexOf(">")+1,s[i].length);
+} }
+strx = s.join("");
+}
+chop = (chop < strx.length-1) ? chop : strx.length-2;
+while(strx.charAt(chop-1)!=' ' && strx.indexOf(' ',chop)!=-1) chop++;
+strx = strx.substring(0,chop-1);
+return strx+'...';
+}
+function createSummaryAndThumb(pID){
+var div = document.getElementById(pID);
+var imgtag = "";
+var img = div.getElementsByTagName("img");
+var summ = summary_noimg;
+if(img.length>=1) {
+  imgtag = '<span style="text-align:center !important;"><img src="'+img[0].src+'" width="'+img_thumb_width+'px" height="'+img_thumb_height +px"/></span>';
+summ = summary_img;
+}
+var summary = imgtag + '<div>' + removeHtmlTag(div.innerHTML,summ) + '</div>';
+div.innerHTML = summary;
+}
+//]]>
+</script>
+
+<script src='https://googledrive.com/host/0B-UFNCskEl7QRnNWcTFTTWVuNUk'/>
+<!--script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'/>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js' type='text/javascript'/-->
+
+</head>
+
+
+
+<body class='home page page-id-84 page-template-default skin-default webkit not-ie sidebar2'>
+
+<div id='pagewrap'>
+
+<div class='' id='headerwrap'>
+
+		<div id='nav-bar'>
+			<div class='pagewidth clearfix'>
+				<ul class='top-nav sidr left' id='top-nav'><li class='menu-item menu-item-type-post_type menu-item-object-page menu-item-95' id='menu-item-95'><a href='http://theanusblog.blogspot.tw/2007/05/blog-post.html'>關於小城</a></li>
+<li class='menu-item menu-item-type-post_type menu-item-object-page menu-item-94' id='menu-item-94'><a href='http://theanusblog.blogspot.tw/2007/05/blog-post.html'>聯絡我</a></li>
+</ul>
+			
+
+				<div class='social-widget'>
+					<div class='widget templateify-social-links' id='templateify-social-links-2'><ul class='social-links'>
+						<!-- /templateify-link-item -->
+						<li class='social-link-item facebook'>
+                          <a href='https://www.facebook.com/smalltown20110306' target='_blank'><img src='http://3.bp.blogspot.com/-IxAOe_QLvFQ/Un0SvuvbbDI/AAAAAAAACEA/oHTWPs7Ufro/s1600/fb.png' style='width:11px;'/> </a>
+						</li>
+						<!-- /templateify-link-item -->
+						<li class='social-link-item google-plus'>
+
+							<a href='https://plus.google.com/108368491409852923303' rel='publisher' target='_blank'><img src='http://4.bp.blogspot.com/-XmyGYMygs9o/Un0SvgM40KI/AAAAAAAACDg/COyxvH2hqDQ/s1600/gplus.png'/> </a>
+						</li>
+						<li class='social-link-item twitter'>
+                          <a href='http://www.plurk.com/smalltown20110306' target='_blank'><img src='https://lh6.googleusercontent.com/HDXvaWRvIEGWJbPdkIQPRqqqF8uifV_xeaa8Yrve1Pzd=w221-h207-p-no'/> </a>
+						</li>
+
+						<!-- /templateify-link-item --></ul></div>
+											<div class='rss'>
+							<a class='hs-rss-link' href='http://feeds.feedburner.com/smalltown20110306' target='_blank'>
+                              <img src='http://4.bp.blogspot.com/-_CGKR4_jhiw/Un0SwTu7y8I/AAAAAAAACDs/qIaAE0_685U/s1600/rss.png' style='width:20px;'/>
+							</a>
+						</div>
+									</div>
+				<!-- /.social-widget -->
+
+
+
+									<div id='searchform-wrap'>
+						<div class='mobile-button' id='search-icon'/>
+						<form action='/search' id='searchform' method='get'>
+	<img class='icon-search' src='http://4.bp.blogspot.com/-gHpcljjzsGI/Un0Zp4NMiLI/AAAAAAAACEg/ddqq8xVJMr4/s1600/Search-128.png' style='width: 38px; margin-right: -10px; margin-top: -4px;'/>
+                          <input class='placeholder' id='s' name='q' placeholder='搜尋文章' type='text'/>
+
+</form>					</div>
+					<!-- /#searchform-wrap -->
+				
+			</div>
+		</div>
+		<!-- /#nav-bar -->
+    
+		
+		<header class='pagewidth clearfix' id='header'>
+
+			
+		
+          <h1 id='site-logo'>
+<b:section class='headers' id='headur' maxwidgets='1' showaddelement='no'>
+  <b:widget id='Header1' locked='true' title='小城故事不多 (標頭)' type='Header'>
+    <b:includable id='main'>
+
+  <b:if cond='data:useImage'>
+    <b:if cond='data:imagePlacement == &quot;BEHIND&quot;'>
+      <!--
+      Show image as background to text. You can't really calculate the width
+      reliably in JS because margins are not taken into account by any of
+      clientWidth, offsetWidth or scrollWidth, so we don't force a minimum
+      width if the user is using shrink to fit.
+      This results in a margin-width's worth of pixels being cropped. If the
+      user is not using shrink to fit then we expand the header.
+      -->
+      <b:if cond='data:mobile'>
+          <div id='header-inner'>
+            <div class='titlewrapper' style='background: transparent'>
+              <h1 class='title' style='background: transparent; border-width: 0px'>
+                <b:include name='title'/>
+              </h1>
+            </div>
+            <b:include name='description'/>
+          </div>
+        <b:else/>
+          <div expr:style='&quot;background-image: url(\&quot;&quot; + data:sourceUrl + &quot;\&quot;); &quot;                        + &quot;background-position: &quot;                        + data:backgroundPositionStyleStr + &quot;; &quot;                        + data:widthStyleStr                        + &quot;min-height: &quot; + data:height                        + &quot;_height: &quot; + data:height                        + &quot;background-repeat: no-repeat; &quot;' id='header-inner'>
+            <div class='titlewrapper' style='background: transparent'>
+              <h1 class='title' style='background: transparent; border-width: 0px'>
+                <b:include name='title'/>
+              </h1>
+            </div>
+            <b:include name='description'/>
+          </div>
+        </b:if>
+    <b:else/>
+      <!--Show the image only-->
+      <div id='header-inner'>
+        <a expr:href='data:blog.homepageUrl' style='display: block'>
+          <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_headerimg&quot;' expr:src='data:sourceUrl' expr:width='data:width' style='display: block'/>
+        </a>
+        <!--Show the description-->
+        <b:if cond='data:imagePlacement == &quot;BEFORE_DESCRIPTION&quot;'>
+          <b:include name='description'/>
+        </b:if>
+      </div>
+    </b:if>
+  <b:else/>
+    <!--No header image -->
+    <div id='header-inner'>
+      <div class='titlewrapper'>
+        <h11 class='title'>
+          <b:include name='title'/>
+        </h11>
+      </div>
+      <b:include name='description'/>
+    </div>
+  </b:if>
+</b:includable>
+    <b:includable id='description'>
+  <div class='descriptionwrapper'>
+    <p class='description'><span><data:description/></span></p>
+  </div>
+</b:includable>
+    <b:includable id='title'>
+    <div style='float:left; margin:0px 10px 0px 0px;'>
+    <a expr:href='data:blog.homepageUrl'>
+    <img height='55px' src='https://352235969585030931-a-theanus-co-cc-s-sites.googlegroups.com/a/theanus.co.cc/theanus/picturenavication/smalltown.jpg' width='55px'/>
+    </a>
+    </div>
+
+  <b:if cond='data:blog.url == data:blog.homepageUrl'>
+    <data:title/>
+  <b:else/>
+    <a expr:href='data:blog.homepageUrl'><data:title/></a>
+  </b:if>
+</b:includable>
+  </b:widget>
+</b:section>
+</h1>		
+
+			<nav class='sidr right' id='sidr'>
+              <ul class='main-nav' id='main-nav'><li class='mega menu-item menu-item-type-taxonomy menu-item-object-category has-sub-menu has-mega-sub-menu' id='menu-item-78'><a href='#'>台北食記<img src='http://2.bp.blogspot.com/-RmDXZ8nNO-k/Un0bsCyNBWI/AAAAAAAACEs/UXkyVOoeiRI/s1600/Arrowhead-Down-128.png' style='width: 13px; margin-left: 6px;'/></a> 
+					<div class='mega-sub-menu' style='; min-height: 330px; max-height: 420px'>
+                      <ul style='overflow: hidden; outline: none' tabindex='5000'><li class='menu-item mega-link icon-group' data-tax='category' data-termid='8' data-termslug='local'><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%5B%E4%B8%AD%E5%BC%8F%E9%A4%90%E5%BB%B3%5D%E5%8F%B0%E5%8C%97'>中式餐廳</a></li><li class='menu-item mega-link icon-globe' data-tax='category' data-termid='8' data-termslug='world'><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%5B%E8%A5%BF%E5%BC%8F%E9%A4%90%E5%BB%B3%5D%E5%8F%B0%E5%8C%97'>西式餐廳</a></li><li class='menu-item mega-link icon-globe' data-tax='category' data-termid='8' data-termslug='world'><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%5B%E6%97%A5%E9%9F%93%E6%96%99%E7%90%86%5D%E5%8F%B0%E5%8C%97'>日韓料理</a></li><li class='menu-item mega-link icon-globe' data-tax='category' data-termid='8' data-termslug='world'><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%5B%E5%8D%97%E6%B4%8B%E5%8D%B0%E5%BA%A6%5D%E5%8F%B0%E5%8C%97'>南洋印度</a></li><li class='menu-item mega-link icon-globe' data-tax='category' data-termid='8' data-termslug='world'><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%5B%E5%90%84%E5%BC%8F%E7%81%AB%E9%8D%8B%5D%E5%8F%B0%E5%8C%97'>各式火鍋</a></li><li class='menu-item mega-link icon-globe' data-tax='category' data-termid='8' data-termslug='world'><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%5B%E5%90%84%E5%BC%8F%E7%87%92%E7%83%A4%5D%E5%8F%B0%E5%8C%97'>各式燒烤</a></li><li class='menu-item mega-link icon-globe' data-tax='category' data-termid='8' data-termslug='world'><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%5B%E6%94%A4%E8%B2%A9%E5%B0%8F%E5%90%83%5D%E5%8F%B0%E5%8C%97'>攤販小吃</a></li><li class='menu-item mega-link icon-globe' data-tax='category' data-termid='8' data-termslug='world'><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%5B%E5%90%84%E5%BC%8F%E7%94%9C%E9%BB%9E%5D%E5%8F%B0%E5%8C%97'>各式甜點</a></li></ul>
+
+						<div class='mega-menu-posts'>
+					<article class='post'>
+	<figure class='post-image'>
+		<a href='#mega-taipei-a-1' id='mega-taipei-a-1'><img alt='讀取中...' height='120' id='mega-taipei-image-1' src='#mega-taipei-1' width='180'/></a>
+	</figure>
+						
+	<h1 class='post-title'><a href='#mega-taipei-a-title-1' id='mega-taipei-a-title-1'/></h1>
+	
+</article>
+
+<!-- /.post -->
+<article class='post'>
+	<figure class='post-image'>
+		<a href='#mega-taipei-a-2' id='mega-taipei-a-2'><img alt='讀取中...' height='120' id='mega-taipei-image-2' src='#mega-taipei-2' width='180'/></a>
+	</figure>
+						
+	<h1 class='post-title'><a href='#mega-taipei-a-title-2' id='mega-taipei-a-title-2'/></h1>
+	
+</article>
+
+<!-- /.post -->
+<article class='post'>
+	<figure class='post-image'>
+		<a href='#mega-taipei-a-3' id='mega-taipei-a-3'><img alt='讀取中...' height='120' id='mega-taipei-image-3' src='#mega-taipei-3' width='180'/></a>
+	</figure>
+						
+	<h1 class='post-title'><a href='#mega-taipei-a-title-3' id='mega-taipei-a-title-3'/></h1>
+	
+</article>
+
+<!-- /.post -->
+<article class='post'>
+	<figure class='post-image'>
+		<a href='#mega-taipei-a-4' id='mega-taipei-a-4'><img alt='讀取中...' height='120' id='mega-taipei-image-4' src='#mega-taipei-4' width='180'/></a>
+	</figure>
+						
+	<h1 class='post-title'><a href='#mega-taipei-a-title-4' id='mega-taipei-a-title-4'/></h1>
+	
+</article>
+					<!-- /.post --></div>
+						<!-- /.mega-menu-posts -->
+					<div class='nicescroll-rails' id='ascrail2000' style='width: 5px; z-index: 100; cursor: default; position: absolute; top: 5px; left: 200px; height: 250px; opacity: 1; display: none;'><div style='position: relative; top: 0px; float: right; width: 5px; height: 0px; background-color: rgba(0, 0, 0, 0.4); border: none; background-clip: padding-box; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;'/></div><div class='nicescroll-rails' id='ascrail2000-hr' style='height: 5px; z-index: 100; top: 250px; left: 5px; position: absolute; opacity: 1; cursor: default; display: none;'><div style='position: relative; top: 0px; height: 5px; width: 0px; background-color: rgba(0, 0, 0, 0.4); border: none; background-clip: padding-box; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; left: 0px;'/></div></div><!-- /.mega-sub-menu --></li>
+
+<li class='mega menu-item menu-item-type-taxonomy menu-item-object-category has-sub-menu has-mega-sub-menu' id='menu-item-78'><a href='#'>高雄食記<img src='http://2.bp.blogspot.com/-RmDXZ8nNO-k/Un0bsCyNBWI/AAAAAAAACEs/UXkyVOoeiRI/s1600/Arrowhead-Down-128.png' style='width: 13px; margin-left: 6px;'/></a> 
+					<div class='mega-sub-menu' style='; min-height: 330px; max-height: 420px'>
+                      <ul style='overflow: hidden; outline: none' tabindex='5000'><li class='menu-item mega-link icon-group' data-tax='category' data-termid='8' data-termslug='local'><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%5B%E4%B8%AD%E5%BC%8F%E9%A4%90%E5%BB%B3%5D%E9%AB%98%E9%9B%84'>中式餐廳</a></li><li class='menu-item mega-link icon-globe' data-tax='category' data-termid='8' data-termslug='world'><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%5B%E8%A5%BF%E5%BC%8F%E9%A4%90%E5%BB%B3%5D%E9%AB%98%E9%9B%84'>西式餐廳</a></li><li class='menu-item mega-link icon-globe' data-tax='category' data-termid='8' data-termslug='world'><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%5B%E6%97%A5%E9%9F%93%E6%96%99%E7%90%86%5D%E9%AB%98%E9%9B%84'>日韓料理</a></li><li class='menu-item mega-link icon-globe' data-tax='category' data-termid='8' data-termslug='world'><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%5B%E5%8D%97%E6%B4%8B%E5%8D%B0%E5%BA%A6%5D%E9%AB%98%E9%9B%84'>南洋印度</a></li><li class='menu-item mega-link icon-globe' data-tax='category' data-termid='8' data-termslug='world'><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%5B%E5%90%84%E5%BC%8F%E7%81%AB%E9%8D%8B%5D%E9%AB%98%E9%9B%84%20'>各式火鍋</a></li><li class='menu-item mega-link icon-globe' data-tax='category' data-termid='8' data-termslug='world'><a href='http://theanusblog.blogspot.tw/search/label/%5B%E9%A3%9F%E8%A8%98%5D%5B%E5%90%84%E5%BC%8F%E7%87%92%E7%83%A4%5D%E9%AB%98%E9%9B%84'>各式燒烤</a></li><li class='menu-item mega-link icon-globe' data-tax='category' data-termid='8' data-termslug='world'><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%5B%E6%94%A4%E8%B2%A9%E5%B0%8F%E5%90%83%5D%E9%AB%98%E9%9B%84'>攤販小吃</a></li><li class='menu-item mega-link icon-globe' data-tax='category' data-termid='8' data-termslug='world'><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%5B%E5%90%84%E5%BC%8F%E7%94%9C%E9%BB%9E%5D%E9%AB%98%E9%9B%84'>各式甜點</a></li></ul>
+
+						<div class='mega-menu-posts'>
+<article class='post'>
+	<figure class='post-image'>
+		<a href='#mega-kaohsiung-a-1' id='mega-kaohsiung-a-1'><img alt='讀取中...' height='120' id='mega-kaohsiung-image-1' src='#mega-kaohsiung-1' width='180'/></a>
+	</figure>
+						
+	<h1 class='post-title'><a href='#mega-kaohsiung-a-title-1' id='mega-kaohsiung-a-title-1'/></h1>
+	
+</article>
+
+<!-- /.post -->
+<article class='post'>
+	<figure class='post-image'>
+		<a href='#mega-kaohsiung-a-2' id='mega-kaohsiung-a-2'><img alt='讀取中...' height='120' id='mega-kaohsiung-image-2' src='#mega-kaohsiung-2' width='180'/></a>
+	</figure>
+						
+	<h1 class='post-title'><a href='#mega-kaohsiung-a-title-2' id='mega-kaohsiung-a-title-2'/></h1>
+	
+</article>
+
+<!-- /.post -->
+<article class='post'>
+	<figure class='post-image'>
+		<a href='#mega-kaohsiung-a-3' id='mega-kaohsiung-a-3'><img alt='讀取中...' height='120' id='mega-kaohsiung-image-3' src='#mega-kaohsiung-3' width='180'/></a>
+	</figure>
+						
+	<h1 class='post-title'><a href='#mega-kaohsiung-a-title-3' id='mega-kaohsiung-a-title-3'/></h1>
+	
+</article>
+
+<!-- /.post -->
+<article class='post'>
+	<figure class='post-image'>
+		<a href='#mega-kaohsiung-a-4' id='mega-kaohsiung-a-4'><img alt='讀取中...' height='120' id='mega-kaohsiung-image-4' src='#mega-kaohsiung-4' width='180'/></a>
+	</figure>
+						
+	<h1 class='post-title'><a href='#mega-kaohsiung-a-title-4' id='mega-kaohsiung-a-title-4'/></h1>
+	
+</article>
+					<!-- /.post --></div>
+						<!-- /.mega-menu-posts -->
+					<div class='nicescroll-rails' id='ascrail2001' style='width: 5px; z-index: 100; cursor: default; position: absolute; top: 0px; left: 14px; height: 100px; opacity: 1; display: none;'><div style='position: relative; top: 0px; float: right; width: 5px; height: 0px; background-color: rgba(0, 0, 0, 0.4); border: none; background-clip: padding-box; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;'/></div><div class='nicescroll-rails' id='ascrail2001-hr' style='height: 5px; z-index: 100; top: 95px; left: 0px; position: absolute; opacity: 1; cursor: default; display: none;'><div style='position: relative; top: 0px; height: 5px; width: 0px; background-color: rgba(0, 0, 0, 0.4); border: none; background-clip: padding-box; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; left: 0px;'/></div></div><!-- /.mega-sub-menu --></li>
+
+<li class='mega menu-item menu-item-type-taxonomy menu-item-object-category has-sub-menu has-mega-sub-menu' id='menu-item-78'><a href='#'>桃園食記<img src='http://2.bp.blogspot.com/-RmDXZ8nNO-k/Un0bsCyNBWI/AAAAAAAACEs/UXkyVOoeiRI/s1600/Arrowhead-Down-128.png' style='width: 13px; margin-left: 6px;'/></a> 
+					<div class='mega-sub-menu' style='; min-height: 330px; max-height: 420px'>
+                      <ul style='overflow: hidden; outline: none' tabindex='5000'><li class='menu-item mega-link icon-group' data-tax='category' data-termid='8' data-termslug='local'><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%5B%E4%B8%AD%E5%BC%8F%E9%A4%90%E5%BB%B3%5D%E6%A1%83%E5%9C%92'>中式餐廳</a></li><li class='menu-item mega-link icon-globe' data-tax='category' data-termid='8' data-termslug='world'><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%5B%E8%A5%BF%E5%BC%8F%E9%A4%90%E5%BB%B3%5D%E6%A1%83%E5%9C%92'>西式餐廳</a></li><li class='menu-item mega-link icon-globe' data-tax='category' data-termid='8' data-termslug='world'><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%5B%E6%97%A5%E9%9F%93%E6%96%99%E7%90%86%5D%E6%A1%83%E5%9C%92'>日韓料理</a></li><li class='menu-item mega-link icon-globe' data-tax='category' data-termid='8' data-termslug='world'><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%5B%E5%8D%97%E6%B4%8B%E5%8D%B0%E5%BA%A6%5D%E6%A1%83%E5%9C%92'>南洋印度</a></li><li class='menu-item mega-link icon-globe' data-tax='category' data-termid='8' data-termslug='world'><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%5B%E5%90%84%E5%BC%8F%E7%81%AB%E9%8D%8B%5D%E6%A1%83%E5%9C%92'>各式火鍋</a></li><li class='menu-item mega-link icon-globe' data-tax='category' data-termid='8' data-termslug='world'><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%5B%E5%90%84%E5%BC%8F%E7%87%92%E7%83%A4%5D%E6%A1%83%E5%9C%92'>各式燒烤</a></li><li class='menu-item mega-link icon-globe' data-tax='category' data-termid='8' data-termslug='world'><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%5B%E6%94%A4%E8%B2%A9%E5%B0%8F%E5%90%83%5D%E6%A1%83%E5%9C%92'>攤販小吃</a></li><li class='menu-item mega-link icon-globe' data-tax='category' data-termid='8' data-termslug='world'><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%5B%E5%90%84%E5%BC%8F%E7%94%9C%E9%BB%9E%5D%E6%A1%83%E5%9C%92'>各式甜點</a></li></ul>
+
+						<div class='mega-menu-posts'>
+					<article class='post'>
+	<figure class='post-image'>
+		<a href='#mega-taoyuan-a-1' id='mega-taoyuan-a-1'><img alt='讀取中...' height='120' id='mega-taoyuan-image-1' src='#mega-taoyuan-1' width='180'/></a>
+	</figure>
+						
+	<h1 class='post-title'><a href='#mega-taoyuan-a-title-1' id='mega-taoyuan-a-title-1'/></h1>
+	
+</article>
+
+<!-- /.post -->
+<article class='post'>
+	<figure class='post-image'>
+		<a href='#mega-taoyuan-a-2' id='mega-taoyuan-a-2'><img alt='讀取中...' height='120' id='mega-taoyuan-image-2' src='#mega-taoyuan-2' width='180'/></a>
+	</figure>
+						
+	<h1 class='post-title'><a href='#mega-taoyuan-a-title-2' id='mega-taoyuan-a-title-2'/></h1>
+	
+</article>
+
+<!-- /.post -->
+<article class='post'>
+	<figure class='post-image'>
+		<a href='#mega-taoyuan-a-3' id='mega-taoyuan-a-3'><img alt='讀取中...' height='120' id='mega-taoyuan-image-3' src='#mega-taoyuan-3' width='180'/></a>
+	</figure>
+						
+	<h1 class='post-title'><a href='#mega-taoyuan-a-title-3' id='mega-taoyuan-a-title-3'/></h1>
+	
+</article>
+
+<!-- /.post -->
+<article class='post'>
+	<figure class='post-image'>
+		<a href='#mega-taoyuan-a-4' id='mega-taoyuan-a-4'><img alt='讀取中...' height='120' id='mega-taoyuan-image-4' src='#mega-taoyuan-4' width='180'/></a>
+	</figure>
+						
+	<h1 class='post-title'><a href='#mega-taoyuan-a-title-4' id='mega-taoyuan-a-title-4'/></h1>
+	
+</article>
+					<!-- /.post --></div>
+						<!-- /.mega-menu-posts -->
+					<div class='nicescroll-rails' id='ascrail2001' style='width: 5px; z-index: 100; cursor: default; position: absolute; top: 0px; left: 14px; height: 100px; opacity: 1; display: none;'><div style='position: relative; top: 0px; float: right; width: 5px; height: 0px; background-color: rgba(0, 0, 0, 0.4); border: none; background-clip: padding-box; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;'/></div><div class='nicescroll-rails' id='ascrail2001-hr' style='height: 5px; z-index: 100; top: 95px; left: 0px; position: absolute; opacity: 1; cursor: default; display: none;'><div style='position: relative; top: 0px; height: 5px; width: 0px; background-color: rgba(0, 0, 0, 0.4); border: none; background-clip: padding-box; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; left: 0px;'/></div></div><!-- /.mega-sub-menu --></li>
+
+<li class='columns menu-item menu-item-type-custom menu-item-object-custom has-sub-menu has-mega-column has-mega-sub-menu' id='menu-item-2144'>
+					<a href='#'>更多<img src='http://2.bp.blogspot.com/-RmDXZ8nNO-k/Un0bsCyNBWI/AAAAAAAACEs/UXkyVOoeiRI/s1600/Arrowhead-Down-128.png' style='width: 13px; margin-left: 6px;'/></a>
+					<div class='mega-column-wrapper clearfix'>
+						<div class='mega-column-list'><h3><a href='#'>台灣食記</a></h3><ul><li class=''><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%E5%AE%9C%E8%98%AD'>宜蘭</a></li><li class=''><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%E5%9F%BA%E9%9A%86'>基隆</a></li><li class=''><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%E6%96%B0%E7%AB%B9'>新竹</a></li><li class=''><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%E5%8F%B0%E4%B8%AD'>台中</a></li><li class=''><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%E5%98%89%E7%BE%A9'>嘉義</a></li></ul>
+								</div>
+								
+								<!-- /.mega-column-list --><div class='mega-column-list'><h3><a href='#'>台灣遊記</a></h3><ul><li class=''><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%81%8A%E8%A8%98%5D%E5%AE%9C%E8%98%AD'>宜蘭</a></li><li class=''><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%81%8A%E8%A8%98%5D%E5%8F%B0%E5%8C%97'>台北</a></li><li class=''><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%81%8A%E8%A8%98%5D%E6%A1%83%E5%9C%92'>桃園</a></li><li class=''><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%81%8A%E8%A8%98%5D%E6%96%B0%E7%AB%B9'>新竹</a></li><li class=''><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%81%8A%E8%A8%98%5D%E9%AB%98%E9%9B%84'>高雄</a></li></ul>
+								</div>
+<!-- /.mega-column-list --><!--div class='mega-column-list'><h3><a href='#'>??&#889;?</a></h3><ul><li class=''><a href='#'>????</a></li></ul></div-->
+<!-- /.mega-column-list --><!--div class='mega-column-list'><h3><a href='#'>????</a></h3><ul><li class=''><a href='#'>????</a></li></ul></div-->
+
+								<!-- /.mega-column-list --><div class='mega-column-list'><h3><a href=''>其他</a></h3><ul><li class=''><a href='http://theanusblog.blogspot.tw/2007/05/blog-post.html'>關於小城</a></li><li class=''><a href='http://theanusblog.blogspot.tw/2007/05/blog-post.html'>聯絡我</a></li></ul>
+								</div>
+								<!-- /.mega-column-list -->
+					</div>
+					<!-- /.mega-column --></li>
+</ul>				<!-- /#main-nav --> 
+			</nav>
+
+			
+		</header>
+		<!-- /#header -->
+
+        				
+	</div>
+<div class='header-widget pagewidth'>
+  <div class='widget widget_text' id='text-4'>			<div class='textwidget'>
+<b:section class='topbanner' id='topbanner' preferred='yes'>
+  <b:widget id='HTML2' locked='false' title='' type='HTML'>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+</b:section> 
+</div>
+		</div>	</div>
+
+<div class='breaking-news clearfix pagewidth'>
+
+	<div class='slideshow-wrap' style='visibility: visible; height: auto;margin-top: -1px;'>
+
+		<h3 class='breaking-news-category'>瑞紳伯斯特</h3>
+
+		<div class='carousel-wrap' style='position: relative;'><div class='caroufredsel_wrapper' style='margin: -40px 0px 0px;'>
+
+<script type='text/javascript'>
+var w2bWidth=&quot;180&quot;;
+var w2bScrollAmount=&quot;1&quot;;
+var w2bScrollDelay=&quot;100&quot;;
+var w2bDirection=&quot;left&quot;;
+var w2btargetlink=&quot;yes&quot;;
+var w2bnumPosts=&quot;100&quot;;
+var w2bBulletchar =&quot; &quot;;
+var w2bimagebullet=&quot;no&quot;;
+var w2bimgurl=&quot;&quot;;
+var w2bfontsize=&quot;14&quot;;
+var w2bbgcolor=&quot;transparent&quot;;
+var w2blinkcolor=&quot;0e88be&quot;;
+var w2blinkhovercolor=&quot;000&quot;;
+</script><br/>
+          <script src='http://googledrive.com/host/0B-UFNCskEl7QWjdqS1pwUmZ1OGc' type='text/javascript'/><br/>
+          <script src='http://theanusblog.blogspot.tw/feeds/posts/default?alt=json-in-script&amp;callback=w2bAdvRecentPostsScrollerv3&amp;max-results=10' type='text/javascript'/>
+</div></div>
+	</div>
+	<!-- /.slideshow-wrap -->
+
+</div>
+
+<div class='clearfix' id='body'>
+<div class='pagewidth clearfix' id='layout'>
+
+<div id='contentwrap'>
+<div class='clearfix' id='content'>
+
+<!-- after this line is slider-->
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+<!-- after this line is slider-->
+
+
+<style type='text/css'>
+
+#sliderFrame {position:relative;max-width:520px;margin: 0 auto 40px;}
+        
+#slider {
+ max-width:520px;height:306px;/* Make it the same size as your images */
+ background:#fff url(http://4.bp.blogspot.com/-aVGCcclfKQo/UR-T3vxFAMI/AAAAAAAABm8/ncwIfUdoLIw/s1600/loading.gif) no-repeat 50% 50%;
+ position:relative;
+ margin:0 auto;/*make the image slider center-aligned */
+}
+#slider img {
+ position:absolute;
+ border:none;
+ display:none;
+
+}
+
+/* the link style (if an image is wrapped in a link) */
+#slider a.imgLink {
+ z-index:2;
+ display:none;position:absolute;
+ top:0px;left:0px;border:0;padding:0;margin:0;
+ width:100%;height:100%;
+}
+
+/* Caption styles */
+div.mc-caption-bg, div.mc-caption-bg2 {
+ position:absolute;
+ width:100%;
+ height:auto;
+ padding:0;
+ left:0px; 
+ bottom:15px;
+ z-index:3;
+ overflow:hidden;
+ font-size: 0;
+}
+div.mc-caption-bg {
+ background-color:black;
+}
+div.mc-caption {
+ font: bold 14px/20px Arial;
+ color:#EEE;
+ z-index:4;
+ padding:10px 0;
+ text-align:center;
+}
+div.mc-caption a {
+ color:#FB0;
+}
+div.mc-caption a:hover {
+ color:#DA0;
+}
+
+/* ------ built-in navigation bullets wrapper ------*/
+div.navBulletsWrapper  {
+ top:320px; left:198px; /* Its position is relative to the #slider */
+ width:150px;
+ background:none;
+ padding-left:20px;
+ position:relative;
+ z-index:5;
+ cursor:pointer;
+}
+
+/* each bullet */
+div.navBulletsWrapper div 
+{
+    width:11px; height:11px;
+    background:transparent url(http://3.bp.blogspot.com/-ZUaX5-lcCi4/UR-TzMXcpuI/AAAAAAAABm0/kokxtfFdNcU/s1600/bullet.png) no-repeat 0 0;
+    float:left;overflow:hidden;vertical-align:middle;cursor:pointer;
+    margin-right:11px;/* distance between each bullet*/
+    _position:relative;/*IE6 hack*/
+}
+div.navBulletsWrapper div.active {background-position:0 -11px;}
+.intro {
+    bottom: 0;
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    z-index: 99999;
+}
+/* --------- Others ------- */
+#slider 
+{
+ transform: translate3d(0,0,0);
+    -ms-transform:translate3d(0,0,0);
+    -moz-transform:translate3d(0,0,0);
+    -o-transform:translate3d(0,0,0);
+}
+</style>
+<script src='http://googledrive.com/host/0B-UFNCskEl7QXzRPaGJWNnZxakk' type='text/javascript'/>
+<script src='http://googledrive.com/host/0B-UFNCskEl7QZGdPbS1BTWFoTHc' type='text/javascript'/>
+
+<div id='sliderFrame'>
+<div id='slider'>
+<a href='#fragment-a-1' id='fragment-a-1'><img alt='讀取中...' id='fragment-img-1' src='#fragment-img-1'/></a>
+<a href='#fragment-a-2' id='fragment-a-2'><img alt='讀取中...' id='fragment-img-2' src='#fragment-img-2'/></a>
+<a href='#fragment-a-3' id='fragment-a-3'><img alt='讀取中...' id='fragment-img-3' src='#fragment-img-3'/></a>
+<a href='#fragment-a-4' id='fragment-a-4'><img alt='讀取中...' id='fragment-img-4' src='#fragment-img-4'/></a>
+<a href='#fragment-a-5' id='fragment-a-5'><img alt='讀取中...' id='fragment-img-5' src='#fragment-img-5'/></a>
+</div>
+<div id='htmlcaption2' style='display: none;'>
+<a href='http://www.w3schools.com/css/' target='_blank'>CSS</a> <a href='http://www.w3schools.com/js/default.asp' target='_blank'>JavaScript</a> Rocks.
+</div>
+</div>
+
+<!-- before this line is slider-->
+</b:if>
+<!-- before this line is slider-->
+ 
+<b:section class='topsmalbanner' id='topsmallbanner' preferred='yes'/> 
+<!-- blog area starts -->
+        <b:section class='main' id='main' showaddelement='no'>
+          <b:widget id='Blog1' locked='true' title='網誌文章' type='Blog'>
+            <b:includable id='main' var='top'>
+  <b:if cond='data:mobile == &quot;false&quot;'>
+
+    <!-- posts -->
+    <div class='blog-posts hfeed'>
+
+      <b:include data='top' name='status-message'/>
+
+      <data:defaultAdStart/>
+      <b:loop values='data:posts' var='post'>
+        <b:if cond='data:post.isDateStart'>
+          <b:if cond='data:post.isFirstPost == &quot;false&quot;'>
+            &lt;/div&gt;&lt;/div&gt;
+          </b:if>
+        </b:if>
+        <b:if cond='data:post.isDateStart'>
+          &lt;div class=&quot;date-outer&quot;&gt;
+        </b:if>
+        <b:if cond='data:post.dateHeader'>
+        </b:if>
+        <b:if cond='data:post.isDateStart'>
+          &lt;div class=&quot;date-posts&quot;&gt;
+        </b:if>
+        <div class='post-outer'>
+        <b:include data='post' name='post'/>
+        <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+          <b:include data='post' name='comment_picker'/>
+        </b:if>
+        <b:if cond='data:blog.pageType == &quot;item&quot;'>
+          <b:include data='post' name='comment_picker'/>
+        </b:if>
+        </div>
+        <b:if cond='data:post.includeAd'>
+          <b:if cond='data:post.isFirstPost'>
+            <data:defaultAdEnd/>
+          <b:else/>
+            <data:adEnd/>
+          </b:if>
+          <div class='inline-ad'>
+            <data:adCode/>
+          </div>
+          <data:adStart/>
+        </b:if>
+      </b:loop>
+      <b:if cond='data:numPosts != 0'>
+        &lt;/div&gt;&lt;/div&gt;
+      </b:if>
+      <data:adEnd/>
+    </div>
+
+    <!-- navigation -->
+
+
+
+    <b:include name='nextprev'/>
+
+
+    <!-- feed links -->
+    <b:include name='feedLinks'/>
+
+    <b:if cond='data:top.showStars'>
+
+      <script src='//www.google.com/jsapi' type='text/javascript'/>
+      <script type='text/javascript'>
+        google.load(&quot;annotations&quot;, &quot;1&quot;, {&quot;locale&quot;: &quot;<data:top.languageCode/>&quot;});
+        function initialize() {
+          google.annotations.setApplicationId(<data:top.blogspotReviews/>);
+          google.annotations.createAll();
+          google.annotations.fetch();
+        }
+        google.setOnLoadCallback(initialize);
+      </script>
+    </b:if>
+
+
+
+
+
+
+
+
+
+
+
+
+  <b:else/>
+    <b:include name='mobile-main'/>
+  </b:if>
+
+  <b:if cond='data:top.showDummy'>
+    <data:top.dummyBootstrap/>
+  </b:if>
+
+</b:includable>
+            <b:includable id='backlinkDeleteIcon' var='backlink'>
+  <span expr:class='&quot;item-control &quot; + data:backlink.adminClass'>
+    <a expr:href='data:backlink.deleteUrl' expr:title='data:top.deleteBacklinkMsg'>
+      <img src='//www.blogger.com/img/icon_delete13.gif'/>
+    </a>
+  </span>
+</b:includable>
+            <b:includable id='backlinks' var='post'>
+  <a name='links'/><h4><data:post.backlinksLabel/></h4>
+  <b:if cond='data:post.numBacklinks != 0'>
+    <dl class='comments-block' id='comments-block'>
+      <b:loop values='data:post.backlinks' var='backlink'>
+        <div class='collapsed-backlink backlink-control'>
+          <dt class='comment-title'>
+            <span class='backlink-toggle-zippy'>&#160;</span>
+            <a expr:href='data:backlink.url' rel='nofollow'><data:backlink.title/></a>
+            <b:include data='backlink' name='backlinkDeleteIcon'/>
+          </dt>
+          <dd class='comment-body collapseable'>
+            <data:backlink.snippet/>
+          </dd>
+          <dd class='comment-footer collapseable'>
+            <span class='comment-author'><data:post.authorLabel/> <data:backlink.author/></span>
+            <span class='comment-timestamp'><data:post.timestampLabel/> <data:backlink.timestamp/></span>
+          </dd>
+        </div>
+      </b:loop>
+    </dl>
+  </b:if>
+  <p class='comment-footer'>
+    <a class='comment-link' expr:href='data:post.createLinkUrl' expr:id='data:widget.instanceId + &quot;_backlinks-create-link&quot;' target='_blank'><data:post.createLinkLabel/></a>
+  </p>
+</b:includable>
+            <b:includable id='comment-form' var='post'>
+<div class='comment-form'>
+    <a name='comment-form'/>
+    <b:if cond='data:mobile'>
+      <h4 id='comment-post-message'>
+        <a expr:id='data:widget.instanceId + &quot;_comment-editor-toggle-link&quot;' href='javascript:void(0)'><data:postCommentMsg/></a></h4>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/>
+    <b:else/>
+      <h4 id='comment-post-message'><data:postCommentMsg/></h4>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    </b:if>
+    <data:post.friendConnectJs/>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.communityId/>&#39;);
+    </script>
+  </div>
+</b:includable>
+            <b:includable id='commentDeleteIcon' var='comment'>
+  <span expr:class='&quot;item-control &quot; + data:comment.adminClass'>
+    <b:if cond='data:showCmtPopup'>
+      <div class='goog-toggle-button'>
+        <div class='goog-inline-block comment-action-icon'/>
+      </div>
+    <b:else/>
+      <a class='comment-delete' expr:href='data:comment.deleteUrl' expr:title='data:top.deleteCommentMsg'>
+        <img src='//www.blogger.com/img/icon_delete13.gif'/>
+      </a>
+    </b:if>
+  </span>
+</b:includable>
+            <b:includable id='comment_count_picker' var='post'>
+  <b:if cond='data:post.commentSource == 1'>
+    <span class='cmt_count_iframe_holder' expr:data-count='data:post.numComments' expr:data-onclick='data:post.addCommentOnclick' expr:data-post-url='data:post.url' expr:data-url='data:post.canonicalUrl'>
+    </span>
+  <b:else/>
+    <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'>
+      <data:post.commentLabelFull/>:
+    </a>
+  </b:if>
+</b:includable>
+            <b:includable id='comment_picker' var='post'>
+  <b:if cond='data:post.commentSource == 1'>
+    <b:include data='post' name='iframe_comments'/>
+  <b:else/>
+    <b:if cond='data:post.showThreadedComments'>
+      <b:include data='post' name='threaded_comments'/>
+    <b:else/>
+      <b:include data='post' name='comments'/>
+    </b:if>
+  </b:if>
+</b:includable>
+            <b:includable id='comments' var='post'>
+  <div class='comments' id='comments'>
+    <a name='comments'/>
+    <b:if cond='data:post.allowComments'>
+      <h4><data:post.commentLabelFull/>:</h4>
+
+      <b:if cond='data:post.commentPagingRequired'>
+        <span class='paging-control-container'>
+          <b:if cond='data:post.hasOlderLinks'>
+            <a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'><data:post.oldestLinkText/></a>
+              &#160;
+            <a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'><data:post.olderLinkText/></a>
+              &#160;
+          </b:if>
+
+          <data:post.commentRangeText/>
+
+          <b:if cond='data:post.hasNewerLinks'>
+            &#160;
+            <a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'><data:post.newerLinkText/></a>
+            &#160;
+            <a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'><data:post.newestLinkText/></a>
+          </b:if>
+        </span>
+      </b:if>
+
+      <div expr:id='data:widget.instanceId + &quot;_comments-block-wrapper&quot;'>
+        <dl expr:class='data:post.avatarIndentClass' id='comments-block'>
+          <b:loop values='data:post.comments' var='comment'>
+            <dt expr:class='&quot;comment-author &quot; + data:comment.authorClass' expr:id='data:comment.anchorName'>
+              <b:if cond='data:comment.favicon'>
+                <img expr:src='data:comment.favicon' height='16px' style='margin-bottom:-2px;' width='16px'/>
+              </b:if>
+              <a expr:name='data:comment.anchorName'/>
+              <b:if cond='data:blog.enabledCommentProfileImages'>
+                <data:comment.authorAvatarImage/>
+              </b:if>
+              <b:if cond='data:comment.authorUrl'>
+                <a expr:href='data:comment.authorUrl' rel='nofollow'><data:comment.author/></a>
+              <b:else/>
+                <data:comment.author/>
+              </b:if>
+              <data:commentPostedByMsg/>
+            </dt>
+            <dd class='comment-body' expr:id='data:widget.instanceId + data:comment.cmtBodyIdPostfix'>
+              <b:if cond='data:comment.isDeleted'>
+                <span class='deleted-comment'><data:comment.body/></span>
+              <b:else/>
+                <p>
+                  <data:comment.body/>
+                </p>
+              </b:if>
+            </dd>
+            <dd class='comment-footer'>
+              <span class='comment-timestamp'>
+                <a expr:href='data:comment.url' title='comment permalink'>
+                  <data:comment.timestamp/>
+                </a>
+                <b:include data='comment' name='commentDeleteIcon'/>
+              </span>
+            </dd>
+          </b:loop>
+        </dl>
+      </div>
+
+      <b:if cond='data:post.commentPagingRequired'>
+        <span class='paging-control-container'>
+          <a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'>
+            <data:post.oldestLinkText/>
+          </a>
+          <a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'>
+            <data:post.olderLinkText/>
+          </a>
+          &#160;
+          <data:post.commentRangeText/>
+          &#160;
+          <a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'>
+            <data:post.newerLinkText/>
+          </a>
+          <a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'>
+            <data:post.newestLinkText/>
+          </a>
+        </span>
+      </b:if>
+
+      <p class='comment-footer'>
+        <b:if cond='data:post.embedCommentForm'>
+          <b:if cond='data:post.allowNewComments'>
+            <b:include data='post' name='comment-form'/>
+          <b:else/>
+            <data:post.noNewCommentsText/>
+          </b:if>
+        <b:else/>
+          <b:if cond='data:post.allowComments'>
+            <a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><data:postCommentMsg/></a>
+          </b:if>
+        </b:if>
+
+      </p>
+    </b:if>
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+
+    <div id='backlinks-container'>
+    <div expr:id='data:widget.instanceId + &quot;_backlinks-container&quot;'>
+       <b:if cond='data:post.showBacklinks'>
+         <b:include data='post' name='backlinks'/>
+       </b:if>
+    </div>
+    </div>
+  </div>
+</b:includable>
+            <b:includable id='feedLinks'>
+  <b:if cond='data:blog.pageType != &quot;item&quot;'> <!-- Blog feed links -->
+    <b:if cond='data:feedLinks'>
+      <div class='blog-feeds'>
+        <b:include data='feedLinks' name='feedLinksBody'/>
+      </div>
+    </b:if>
+
+    <b:else/> <!--Post feed links -->
+    <div class='post-feeds'>
+      <b:loop values='data:posts' var='post'>
+        <b:if cond='data:post.allowComments'>
+          <b:if cond='data:post.feedLinks'>
+            <b:include data='post.feedLinks' name='feedLinksBody'/>
+          </b:if>
+        </b:if>
+      </b:loop>
+    </div>
+  </b:if>
+</b:includable>
+            <b:includable id='feedLinksBody' var='links'>
+  <div class='feed-links'>
+  <data:feedLinksMsg/>
+  <b:loop values='data:links' var='f'>
+     <a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'><data:f.name/> (<data:f.feedType/>)</a>
+  </b:loop>
+  </div>
+</b:includable>
+            <b:includable id='iframe_comments' var='post'>
+
+  <b:if cond='data:post.allowIframeComments'>
+    <script expr:src='data:post.iframeCommentSrc' type='text/javascript'/>
+    <div class='cmt_iframe_holder' expr:data-href='data:post.canonicalUrl' expr:data-viewtype='data:post.viewType'/>
+
+    <b:if cond='data:post.embedCommentForm == &quot;false&quot;'>
+      <a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><data:postCommentMsg/></a>
+    </b:if>
+  </b:if>
+</b:includable>
+            <b:includable id='mobile-index-post' var='post'>
+  <div class='mobile-date-outer date-outer'>
+    <b:if cond='data:post.dateHeader'>
+      <div class='date-header'>
+        <span><data:post.dateHeader/></span>
+      </div>
+    </b:if>
+
+    <div class='mobile-post-outer'>
+      <a expr:href='data:post.url'>
+        <h3 class='mobile-index-title entry-title' itemprop='name'>
+          <data:post.title/>
+        </h3>
+
+        <div class='mobile-index-arrow'>&amp;rsaquo;</div>
+
+        <div class='mobile-index-contents'>
+          <b:if cond='data:post.thumbnailUrl'>
+            <div class='mobile-index-thumbnail'>
+              <div class='Image'>
+                <img expr:src='data:post.thumbnailUrl'/>
+              </div>
+            </div>
+          </b:if>
+
+          <div class='post-body'>
+            <b:if cond='data:post.snippet'><data:post.snippet/></b:if>
+          </div>
+        </div>
+
+        <div style='clear: both;'/>
+      </a>
+
+      <div class='mobile-index-comment'>
+        <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+          <b:if cond='data:post.allowComments'>
+            <b:if cond='data:post.numComments != 0'>
+              <b:include data='post' name='comment_count_picker'/>
+            </b:if>
+          </b:if>
+        </b:if>
+      </div>
+    </div>
+  </div>
+</b:includable>
+            <b:includable id='mobile-main' var='top'>
+    <!-- posts -->
+    <div class='blog-posts hfeed'>
+
+      <b:include data='top' name='status-message'/>
+
+      <b:if cond='data:blog.pageType == &quot;index&quot;'>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='mobile-index-post'/>
+        </b:loop>
+      <b:else/>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='mobile-post'/>
+        </b:loop>
+      </b:if>
+    </div>
+
+   <b:include name='mobile-nextprev'/>
+</b:includable>
+            <b:includable id='mobile-nextprev'>
+  <div class='blog-pager' id='blog-pager'>
+    <b:if cond='data:newerPageUrl'>
+      <div class='mobile-link-button' id='blog-pager-newer-link'>
+      <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'>&amp;lsaquo;</a>
+      </div>
+    </b:if>
+
+    <b:if cond='data:olderPageUrl'>
+      <div class='mobile-link-button' id='blog-pager-older-link'>
+      <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'>&amp;rsaquo;</a>
+      </div>
+    </b:if>
+
+    <div class='mobile-link-button' id='blog-pager-home-link'>
+    <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
+    </div>
+
+    <div class='mobile-desktop-link'>
+      <a class='home-link' expr:href='data:desktopLinkUrl'><data:desktopLinkMsg/></a>
+    </div>
+
+  </div>
+  <div class='clear'/>
+</b:includable>
+            <b:includable id='mobile-post' var='post'>
+  <div class='date-outer'>
+    <b:if cond='data:post.dateHeader'>      
+
+
+    </b:if>
+    <div class='date-posts'>
+      <div class='post-outer'>
+
+        <div class='post hentry uncustomized-post-template' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+          <b:if cond='data:post.thumbnailUrl'>
+            <meta expr:content='data:post.thumbnailUrl' itemprop='image_url'/>
+          </b:if>
+          <meta expr:content='data:blog.blogId' itemprop='blogId'/>
+          <meta expr:content='data:post.id' itemprop='postId'/>
+
+          <a expr:name='data:post.id'/>
+          <b:if cond='data:post.title'>
+            <h3 class='post-title entry-title' itemprop='name'>
+              <b:if cond='data:post.link'>
+                <a expr:href='data:post.link'><data:post.title/></a>
+              <b:else/>
+                <b:if cond='data:post.url'>
+                  <b:if cond='data:blog.url != data:post.url'>
+                    <a expr:href='data:post.url'><data:post.title/></a>
+                  <b:else/>
+                    <data:post.title/>
+                  </b:if>
+                <b:else/>
+                  <data:post.title/>
+                </b:if>
+              </b:if>
+            </h3>
+          </b:if>
+
+          <div class='post-header' style='position:absolute;left:-9999px'>
+
+            <div class='post-header-line-1'/>
+          </div>
+
+          <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='articleBody'>
+
+
+            <data:post.body/>
+
+
+
+
+            <div style='clear: both;'/> <!-- clear for photos floats -->
+          </div>
+
+          <!--div class='post-footer'>
+            <div class='post-footer-line post-footer-line-1'>
+              <span class='post-author vcard'>
+                <b:if cond='data:top.showAuthor'>
+                  <b:if cond='data:post.authorProfileUrl'>
+                    <span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+
+						<meta expr:content='data:post.authorProfileUrl' itemprop='url'/>
+                      <a expr:href='data:post.authorProfileUrl' rel='author' title='author profile'>
+                        <data:post.author/>
+                      </a>
+                    </span>
+                  <b:else/>
+
+
+                    <span class='fn'><data:post.author/></span>
+
+
+                  </b:if>
+                </b:if>
+              </span>
+
+              <span class='post-timestamp'>
+                <b:if cond='data:top.showTimestamp'>
+                  <data:top.timestampLabel/>
+                  <b:if cond='data:post.url'>
+
+
+                    <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'><abbr class='updated published' expr:title='data:post.timestampISO8601'><data:post.timestamp/></abbr></a>
+                  </b:if>
+                </b:if>
+              </span>
+
+              <span class='post-comment-link'>
+                <b:if cond='data:blog.pageType != &quot;item&quot;'>
+                  <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+                    <b:if cond='data:post.allowComments'>
+                      <b:include data='post' name='comment_count_picker'/>
+                    </b:if>
+                  </b:if>
+                </b:if>
+              </span>
+
+
+            </div>
+
+            <div class='post-footer-line post-footer-line-2'>
+              <b:if cond='data:top.showMobileShare'>
+                <div class='mobile-link-button goog-inline-block' id='mobile-share-button'>
+                  <a href='javascript:void(0);'><data:shareMsg/></a>
+                </div>
+              </b:if>
+              <b:if cond='data:top.showDummy'>
+                <div class='goog-inline-block dummy-container'><data:post.dummyTag/></div>
+              </b:if>
+            </div>
+
+          </div-->
+        </div>
+
+        <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+          <b:include data='post' name='comment_picker'/>
+        </b:if>
+        <b:if cond='data:blog.pageType == &quot;item&quot;'>
+          <b:include data='post' name='comment_picker'/>
+        </b:if>
+      </div>
+    </div>
+  </div>
+</b:includable>
+            <b:includable id='nextprev'>
+  <div class='blog-pager' id='blog-pager'>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <b:if cond='data:mobileLinkUrl'>
+      <div class='blog-mobile-link'>
+        <a expr:href='data:mobileLinkUrl'><data:mobileLinkMsg/></a>
+      </div>
+    </b:if>
+
+  </div>
+  <div class='clear'/>
+</b:includable>
+            <b:includable id='post' var='post'>
+
+
+
+
+
+
+<!-- thumbs -->
+<b:if cond='data:blog.pageType != &quot;item&quot;'>
+<b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+
+
+   <b:if cond='data:post.thumbnailUrl'>
+     <figure class='post-image '><a expr:href='data:post.url' expr:title='data:post.title'><img expr:alt='data:post.title' expr:src='data:post.thumbnailUrl' itemprop='image' style='width: 518px;'/></a>    </figure>
+<b:else/>
+<a class='thumbx' expr:href='data:post.url' expr:title='data:post.title'><img alt='no image' class='' src='http://2.bp.blogspot.com/-wZtyEwTWviE/UUvGgxDgGII/AAAAAAAABw8/mqb6pEkMbkE/s000/grey.png'/></a>
+   </b:if>
+</b:if>
+
+</b:if>
+<!-- thumbs -->
+						
+							
+
+  <div class='post hentry' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+    <b:if cond='data:post.firstImageUrl'>
+
+
+      <meta expr:content='data:post.firstImageUrl' itemprop='image_url'/>
+
+
+
+    </b:if>
+
+
+    <meta expr:content='data:blog.blogId' itemprop='blogId'/>
+    <meta expr:content='data:post.id' itemprop='postId'/>
+
+    <a expr:name='data:post.id'/>
+
+
+    <b:if cond='data:post.title'>
+      <h1 class='post-title entry-title' itemprop='name'>
+      <b:if cond='data:post.link'>
+        <a expr:href='data:post.link'><data:post.title/></a>
+      <b:else/>
+        <b:if cond='data:post.url'>
+          <b:if cond='data:blog.url != data:post.url'>
+
+            <a expr:href='data:post.url'><data:post.title/></a>
+          <b:else/>
+            <data:post.title/>
+          </b:if>
+        <b:else/>
+          <data:post.title/>
+        </b:if>
+      </b:if>
+      </h1>
+    </b:if>
+
+
+
+
+
+
+
+<!--p class='post-meta post-meta-details'>
+
+						<span class='author-name'><a expr:href='data:post.authorProfileUrl'> <data:post.author/></a></span>
+					
+																
+											<span class='post-comment'><b:if cond='data:post.allowComments'><a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><b:if cond='data:post.numComments == 0'>No comments</b:if><b:if cond='data:post.numComments == 1'>1 comment</b:if><b:if cond='data:post.numComments &gt;= 2'><data:post.numComments/> comments</b:if></a></b:if></span>
+									
+									 <time class='post-date' datetime='2013-08-16' pubdate=''><data:post.timestamp/></time>
+				
+			</p-->
+
+
+
+
+
+
+
+
+
+
+
+    <div class='post-header'>
+
+
+    <div class='post-header-line-1'/>
+    </div>
+
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<div class='facebook_line'>
+<iframe allowTransparency='true' expr:src='&quot;http://www.facebook.com/plugins/like.php?href=&quot; + data:post.canonicalUrl + &quot;&amp;send=false&amp;layout=box_count&amp;show_faces=false&amp;width=55&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=62&quot;' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:55px; height:62px;'/>
+
+<script src='//media.line.naver.jp/js/line-button.js?v=20131101' type='text/javascript'/>
+<script type='text/javascript'>
+new jp.naver.line.media.LineButton({&quot;pc&quot;:false,&quot;lang&quot;:&quot;en&quot;,&quot;type&quot;:&quot;e&quot;});
+</script>
+</div>
+</b:if>
+
+
+
+
+    <b:if cond='data:blog.metaDescription == &quot;&quot;'>
+      <!-- Then use the post body as the schema.org description,
+          for good G+/FB snippeting. -->
+      <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='description articleBody'>
+        <data:post.body/>
+
+        <div style='clear: both;'/> <!-- clear for photos floats -->
+      </div>
+
+
+    <b:else/>
+      <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='articleBody'>
+        <data:post.body/>
+
+
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+
+
+<div class='facebook_line'>
+<iframe allowTransparency='true' expr:src='&quot;http://www.facebook.com/plugins/like.php?href=&quot; + data:post.canonicalUrl + &quot;&amp;send=false&amp;layout=box_count&amp;show_faces=false&amp;width=55&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=62&quot;' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:55px; height:62px;'/>
+
+<script src='//media.line.naver.jp/js/line-button.js?v=20131101' type='text/javascript'/>
+<script type='text/javascript'>
+new jp.naver.line.media.LineButton({&quot;pc&quot;:false,&quot;lang&quot;:&quot;en&quot;,&quot;type&quot;:&quot;e&quot;});
+</script>
+</div>
+
+<script>
+var linkwithin_site_id = 570363;
+</script>
+<script src='http://www.linkwithin.com/widget.js'/>
+</b:if>
+
+
+        <div style='clear: both;'/> <!-- clear for photos floats -->
+      </div>
+
+
+    </b:if>
+
+
+    <!--div class='post-footer'>
+    <div class='post-footer-line post-footer-line-1'><span class='post-icons'>
+
+
+        <b:if cond='data:post.emailPostUrl'>
+          <span class='item-action'>
+          <a expr:href='data:post.emailPostUrl' expr:title='data:top.emailPostMsg'>
+              <img alt='' class='icon-action' height='13' src='http://img1.blogblog.com/img/icon18_email.gif' width='18'/>
+          </a>
+          </span>
+        </b:if>
+
+
+        <b:include data='post' name='postQuickEdit'/>
+      </span> </div>
+
+      <div class='post-footer-line post-footer-line-2'><span class='post-comment-link'>
+        <b:if cond='data:blog.pageType != &quot;item&quot;'>
+          <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+            <b:if cond='data:post.allowComments'>
+              <b:include data='post' name='comment_count_picker'/>
+            </b:if>
+          </b:if>
+        </b:if>
+      </span> </div>
+
+
+      <div class='post-footer-line post-footer-line-3'/>
+
+
+      <b:if cond='data:post.authorAboutMe'>
+        <div class='author-profile' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+
+
+
+          <b:if cond='data:post.authorPhoto.url'>
+            <img expr:src='data:post.authorPhoto.url' itemprop='image' width='50px'/>
+
+
+          </b:if>
+          <div>
+            <a class='g-profile' expr:href='data:post.authorProfileUrl' itemprop='url' rel='author' title='author profile'>
+              <span itemprop='name'><data:post.author/></span>
+            </a>
+          </div>
+          <span itemprop='description'><data:post.authorAboutMe/></span>
+        </div>
+
+
+      </b:if>
+    </div-->
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</b:includable>
+            <b:includable id='postQuickEdit' var='post'>
+  <b:if cond='data:post.editUrl'>
+    <span expr:class='&quot;item-control &quot; + data:post.adminClass'>
+      <a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'>
+        <img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+      </a>
+    </span>
+  </b:if>
+</b:includable>
+            <b:includable id='shareButtons' var='post'>
+  <b:if cond='data:top.showEmailButton'><a class='goog-inline-block share-button sb-email' expr:href='data:post.sharePostUrl + &quot;&amp;target=email&quot;' expr:title='data:top.emailThisMsg' target='_blank'><span class='share-button-link-text'><data:top.emailThisMsg/></span></a></b:if><b:if cond='data:top.showBlogThisButton'><a class='goog-inline-block share-button sb-blog' expr:href='data:post.sharePostUrl + &quot;&amp;target=blog&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=270,width=475\&quot;); return false;&quot;' expr:title='data:top.blogThisMsg' target='_blank'><span class='share-button-link-text'><data:top.blogThisMsg/></span></a></b:if><b:if cond='data:top.showTwitterButton'><a class='goog-inline-block share-button sb-twitter' expr:href='data:post.sharePostUrl + &quot;&amp;target=twitter&quot;' expr:title='data:top.shareToTwitterMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToTwitterMsg/></span></a></b:if><b:if cond='data:top.showFacebookButton'><a class='goog-inline-block share-button sb-facebook' expr:href='data:post.sharePostUrl + &quot;&amp;target=facebook&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' expr:title='data:top.shareToFacebookMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToFacebookMsg/></span></a></b:if><b:if cond='data:top.showOrkutButton'><a class='goog-inline-block share-button sb-orkut' expr:href='data:post.sharePostUrl + &quot;&amp;target=orkut&quot;' expr:title='data:top.shareToOrkutMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToOrkutMsg/></span></a></b:if><b:if cond='data:top.showDummy'><div class='goog-inline-block dummy-container'><data:post.dummyTag/></div></b:if>
+</b:includable>
+            <b:includable id='status-message'>
+  <b:if cond='data:navMessage'>
+  <div class='status-msg-wrap'>
+    <div class='status-msg-body'>
+      <data:navMessage/>
+    </div>
+    <div class='status-msg-border'>
+      <div class='status-msg-bg'>
+        <div class='status-msg-hidden'><data:navMessage/></div>
+      </div>
+    </div>
+  </div>
+  <div style='clear: both;'/>
+  </b:if>
+</b:includable>
+            <b:includable id='threaded-comment-form' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <b:if cond='data:mobile'>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/>
+    <b:else/>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    </b:if>
+    <data:post.friendConnectJs/>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.communityId/>&#39;);
+    </script>
+  </div>
+</b:includable>
+            <b:includable id='threaded_comment_js' var='post'>
+  <script async='async' expr:src='data:post.commentSrc' type='text/javascript'/>
+
+  <script type='text/javascript'>
+    (function() {
+      var items = <data:post.commentJso/>;
+      var msgs = <data:post.commentMsgs/>;
+      var config = <data:post.commentConfig/>;
+
+// <![CDATA[
+      var cursor = null;
+      if (items && items.length > 0) {
+        cursor = parseInt(items[items.length - 1].timestamp) + 1;
+      }
+
+      var bodyFromEntry = function(entry) {
+        if (entry.gd$extendedProperty) {
+          for (var k in entry.gd$extendedProperty) {
+            if (entry.gd$extendedProperty[k].name == 'blogger.contentRemoved') {
+              return '<span class="deleted-comment">' + entry.content.$t + '</span>';
+            }
+          }
+        }
+        return entry.content.$t;
+      }
+
+      var parse = function(data) {
+        cursor = null;
+        var comments = [];
+        if (data && data.feed && data.feed.entry) {
+          for (var i = 0, entry; entry = data.feed.entry[i]; i++) {
+            var comment = {};
+            // comment ID, parsed out of the original id format
+            var id = /blog-(\d+).post-(\d+)/.exec(entry.id.$t);
+            comment.id = id ? id[2] : null;
+            comment.body = bodyFromEntry(entry);
+            comment.timestamp = Date.parse(entry.published.$t) + '';
+            if (entry.author && entry.author.constructor === Array) {
+              var auth = entry.author[0];
+              if (auth) {
+                comment.author = {
+                  name: (auth.name ? auth.name.$t : undefined),
+                  profileUrl: (auth.uri ? auth.uri.$t : undefined),
+                  avatarUrl: (auth.gd$image ? auth.gd$image.src : undefined)
+                };
+              }
+            }
+            if (entry.link) {
+              if (entry.link[2]) {
+                comment.link = comment.permalink = entry.link[2].href;
+              }
+              if (entry.link[3]) {
+                var pid = /.*comments\/default\/(\d+)\?.*/.exec(entry.link[3].href);
+                if (pid && pid[1]) {
+                  comment.parentId = pid[1];
+                }
+              }
+            }
+            comment.deleteclass = 'item-control blog-admin';
+            if (entry.gd$extendedProperty) {
+              for (var k in entry.gd$extendedProperty) {
+                if (entry.gd$extendedProperty[k].name == 'blogger.itemClass') {
+                  comment.deleteclass += ' ' + entry.gd$extendedProperty[k].value;
+                } else if (entry.gd$extendedProperty[k].name == 'blogger.displayTime') {
+                  comment.displayTime = entry.gd$extendedProperty[k].value;
+                }
+              }
+            }
+            comments.push(comment);
+          }
+        }
+        return comments;
+      };
+
+      var paginator = function(callback) {
+        if (hasMore()) {
+          var url = config.feed + '?alt=json&v=2&orderby=published&reverse=false&max-results=50';
+          if (cursor) {
+            url += '&published-min=' + new Date(cursor).toISOString();
+          }
+          window.bloggercomments = function(data) {
+            var parsed = parse(data);
+            cursor = parsed.length < 50 ? null
+                : parseInt(parsed[parsed.length - 1].timestamp) + 1
+            callback(parsed);
+            window.bloggercomments = null;
+          }
+          url += '&callback=bloggercomments';
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.src = url;
+          document.getElementsByTagName('head')[0].appendChild(script);
+        }
+      };
+      var hasMore = function() {
+        return !!cursor;
+      };
+      var getMeta = function(key, comment) {
+        if ('iswriter' == key) {
+          var matches = !!comment.author
+              && comment.author.name == config.authorName
+              && comment.author.profileUrl == config.authorUrl;
+          return matches ? 'true' : '';
+        } else if ('deletelink' == key) {
+          return config.baseUri + '/delete-comment.g?blogID='
+               + config.blogId + '&postID=' + comment.id;
+        } else if ('deleteclass' == key) {
+          return comment.deleteclass;
+        }
+        return '';
+      };
+
+      var replybox = null;
+      var replyUrlParts = null;
+      var replyParent = undefined;
+
+      var onReply = function(commentId, domId) {
+        if (replybox == null) {
+          // lazily cache replybox, and adjust to suit this style:
+          replybox = document.getElementById('comment-editor');
+          if (replybox != null) {
+            replybox.height = '250px';
+            replybox.style.display = 'block';
+            replyUrlParts = replybox.src.split('#');
+          }
+        }
+        if (replybox && (commentId !== replyParent)) {
+          document.getElementById(domId).insertBefore(replybox, null);
+          replybox.src = replyUrlParts[0]
+              + (commentId ? '&parentID=' + commentId : '')
+              + '#' + replyUrlParts[1];
+          replyParent = commentId;
+        }
+      };
+
+      var hash = (window.location.hash || '#').substring(1);
+      var startThread, targetComment;
+      if (/^comment-form_/.test(hash)) {
+        startThread = hash.substring('comment-form_'.length);
+      } else if (/^c[0-9]+$/.test(hash)) {
+        targetComment = hash.substring(1);
+      }
+
+      // Configure commenting API:
+      var configJso = {
+        'maxDepth': config.maxThreadDepth
+      };
+      var provider = {
+        'id': config.postId,
+        'data': items,
+        'loadNext': paginator,
+        'hasMore': hasMore,
+        'getMeta': getMeta,
+        'onReply': onReply,
+        'rendered': true,
+        'initComment': targetComment,
+        'initReplyThread': startThread,
+        'config': configJso,
+        'messages': msgs
+      };
+
+      var render = function() {
+        if (window.goog && window.goog.comments) {
+          var holder = document.getElementById('comment-holder');
+          window.goog.comments.render(holder, provider);
+        }
+      };
+
+      // render now, or queue to render when library loads:
+      if (window.goog && window.goog.comments) {
+        render();
+      } else {
+        window.goog = window.goog || {};
+        window.goog.comments = window.goog.comments || {};
+        window.goog.comments.loadQueue = window.goog.comments.loadQueue || [];
+        window.goog.comments.loadQueue.push(render);
+      }
+    })();
+// ]]>
+  </script>
+</b:includable>
+            <b:includable id='threaded_comments' var='post'>
+  <div class='comments' id='comments'>
+    <a name='comments'/>
+    <h4><data:post.commentLabelFull/>:</h4>
+
+    <div class='comments-content'>
+      <b:if cond='data:post.embedCommentForm'>
+        <b:include data='post' name='threaded_comment_js'/>
+      </b:if>
+      <div id='comment-holder'>
+         <data:post.commentHtml/>
+      </div>
+    </div>
+
+    <p class='comment-footer'>
+      <b:if cond='data:post.allowNewComments'>
+        <b:include data='post' name='threaded-comment-form'/>
+      <b:else/>
+        <data:post.noNewCommentsText/>
+      </b:if>
+    </p>
+
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+
+    <div id='backlinks-container'>
+    <div expr:id='data:widget.instanceId + &quot;_backlinks-container&quot;'>
+       <b:if cond='data:post.showBacklinks'>
+         <b:include data='post' name='backlinks'/>
+       </b:if>
+    </div>
+    </div>
+  </div>
+</b:includable>
+          </b:widget>
+          <b:widget id='HTML5' locked='false' title='Disqus for 小城故事不多' type='HTML'>
+            <b:includable id='main'>
+            <script type='text/javascript'>
+                var disqus_shortname = &#39;smalltown20110306&#39;;
+                var disqus_blogger_current_url = &quot;<data:blog.canonicalUrl/>&quot;;
+                if (!disqus_blogger_current_url.length) {
+                    disqus_blogger_current_url = &quot;<data:blog.url/>&quot;;
+                }
+                var disqus_blogger_homepage_url = &quot;<data:blog.homepageUrl/>&quot;;
+                var disqus_blogger_canonical_homepage_url = &quot;<data:blog.canonicalHomepageUrl/>&quot;;
+            </script>
+            <b:if cond='data:blog.pageType == &quot;item&quot;'>
+                <style type='text/css'>
+                    #comments {display:none;}
+                </style>
+                <script type='text/javascript'>
+                    (function() {
+                        var bloggerjs = document.createElement(&#39;script&#39;);
+                        bloggerjs.type = &#39;text/javascript&#39;;
+                        bloggerjs.async = true;
+                        bloggerjs.src = &#39;http://&#39;+disqus_shortname+&#39;.disqus.com/blogger_item.js&#39;;
+                        (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(bloggerjs);
+                    })();
+                </script>
+            </b:if>
+                <style type='text/css'>
+                    .post-comment-link { visibility: hidden; }
+                </style>
+                <script type='text/javascript'>
+                (function() {
+                    var bloggerjs = document.createElement(&#39;script&#39;);
+                    bloggerjs.type = &#39;text/javascript&#39;;
+                    bloggerjs.async = true;
+                    bloggerjs.src = &#39;http://&#39;+disqus_shortname+&#39;.disqus.com/blogger_index.js&#39;;
+                    (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(bloggerjs);
+                })();
+                </script>
+        </b:includable>
+          </b:widget>
+        </b:section>
+<b:section class='bottomsmalbanner' id='bottomsmallbanner' preferred='yes'/> 
+<!-- blog area ends --> 
+
+
+  </div>
+
+<b:if cond='data:blog.pageType != &quot;item&quot;'>
+<b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+<aside id='sidebar-alt'>
+  <b:section class='sidebaleft' id='sidebaleft' preferred='yes'>
+    <b:widget id='PopularPosts1' locked='false' title='熱門文章' type='PopularPosts'>
+      <b:includable id='main'>
+  <b:if cond='data:title'><h2><data:title/></h2></b:if>
+  <div class='widget-content popular-posts'>
+    <ul>
+      <b:loop values='data:posts' var='post'>
+      <li>
+        <b:if cond='data:showThumbnails == &quot;false&quot;'>
+          <b:if cond='data:showSnippets == &quot;false&quot;'>
+            <!-- (1) No snippet/thumbnail -->
+            <a expr:href='data:post.href'><data:post.title/></a>
+          <b:else/>
+            <!-- (2) Show only snippets -->
+            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+            <div class='item-snippet'><data:post.snippet/></div>
+          </b:if>
+        <b:else/>
+          <b:if cond='data:showSnippets == &quot;false&quot;'>
+            <!-- (3) Show only thumbnails -->
+            <div class='item-thumbnail-only'>
+              <b:if cond='data:post.thumbnail'>
+                <div class='item-thumbnail'>
+                  <a expr:href='data:post.href' target='_blank'>
+                    <img alt='' border='0' expr:height='data:thumbnailSize' expr:src='data:post.thumbnail' expr:width='data:thumbnailSize'/>
+                  </a>
+                </div>
+              </b:if>
+              <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+            </div>
+            <div style='clear: both;'/>
+          <b:else/>
+            <!-- (4) Show snippets and thumbnails -->
+            <div class='item-content'>
+              <b:if cond='data:post.thumbnail'>
+                <div class='item-thumbnail'>
+                  <a expr:href='data:post.href' target='_blank'>
+                    <img alt='' border='0' expr:height='data:thumbnailSize' expr:src='data:post.thumbnail' expr:width='data:thumbnailSize'/>
+                  </a>
+                </div>
+              </b:if>
+              <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+              <div class='item-snippet'><data:post.snippet/></div>
+            </div>
+            <div style='clear: both;'/>
+          </b:if>
+        </b:if>
+      </li>
+      </b:loop>
+    </ul>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+    </b:widget>
+  </b:section>
+	
+</aside>
+  </b:if></b:if>
+</div> <!-- contentwrap -->
+
+<b:if cond='data:blog.pageType != &quot;item&quot;'>
+<b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+<script type='text/javascript'>
+//<![CDATA[
+function resizeThumb(e,b){var c=document.getElementById(e),d=c.getElementsByTagName("img");for(var a=0;a<d.length;a++){d[a].src=d[a].src.replace(/\/s72\-c/,"/s"+b+"-c");d[a].width=b}}resizeThumb("main",0);
+//]]></script>
+</b:if></b:if>
+      
+
+<aside id='sidebar'>
+<!-- sidebar starts -->
+<b:section class='sidebaright' id='sidebaright' preferred='yes'>
+  <b:widget id='HTML1' locked='false' title='最新文章' type='HTML'>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+  <b:widget id='PopularPosts2' locked='false' title='本月熱門' type='PopularPosts'>
+    <b:includable id='main'>
+  <b:if cond='data:title'><h2><data:title/></h2></b:if>
+  <div class='widget-content popular-posts'>
+    <ul>
+      <b:loop values='data:posts' var='post'>
+      <li>
+        <b:if cond='data:showThumbnails == &quot;false&quot;'>
+          <b:if cond='data:showSnippets == &quot;false&quot;'>
+            <!-- (1) No snippet/thumbnail -->
+            <a expr:href='data:post.href'><data:post.title/></a>
+          <b:else/>
+            <!-- (2) Show only snippets -->
+            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+            <div class='item-snippet'><data:post.snippet/></div>
+          </b:if>
+        <b:else/>
+          <b:if cond='data:showSnippets == &quot;false&quot;'>
+            <!-- (3) Show only thumbnails -->
+            <div class='item-thumbnail-only'>
+              <b:if cond='data:post.thumbnail'>
+                <div class='item-thumbnail'>
+                  <a expr:href='data:post.href' target='_blank'>
+                    <img alt='' border='1' expr:height='46' expr:src='data:post.thumbnail' expr:width='46'/>
+                  </a>
+                </div>
+              </b:if>
+              <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+            </div>
+            <div style='clear: both;'/>
+          <b:else/>
+            <!-- (4) Show snippets and thumbnails -->
+            <div class='item-content'>
+              <b:if cond='data:post.thumbnail'>
+                <div class='item-thumbnail'>
+                  <a expr:href='data:post.href' target='_blank'>
+                    <img alt='' border='0' expr:height='data:thumbnailSize' expr:src='data:post.thumbnail' expr:width='data:thumbnailSize'/>
+                  </a>
+                </div>
+              </b:if>
+              <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+              <div class='item-snippet'><data:post.snippet/></div>
+            </div>
+            <div style='clear: both;'/>
+          </b:if>
+        </b:if>
+      </li>
+      </b:loop>
+    </ul>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+  </b:widget>
+</b:section>   
+
+<div class='clearfix'>
+  <b:section class='secondary' id='sidebar1' preferred='yes'/>
+  <b:section class='secondary last' id='sidebar2' preferred='yes'/>    
+  </div>        
+  <b:section class='sidebaright2' id='sidebaright2' preferred='yes'>
+            <b:widget id='HTML4' locked='false' title='非死不可' type='HTML'>
+              <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+            </b:widget>
+            <b:widget id='PlusFollowers1' locked='false' title='谷哥不拉屎' type='PlusFollowers'>
+              <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <b:if cond='data:profileUrl != &quot;&quot;'>
+      <div class='g-plus' data-action='followers' data-source='blogger:blog:followers' expr:data-height='data:height' expr:data-href='data:profileUrl' expr:data-theme='data:theme' expr:data-width='data:width'/>
+      <script type='text/javascript'>
+        window.___gcfg = {&#39;lang&#39;: &#39;<data:language/>&#39;};
+      </script>
+    </b:if>
+  </div>
+</b:includable>
+            </b:widget>
+            <b:widget id='Stats1' locked='false' title='觀光人次' type='Stats'>
+              <b:includable id='main'>
+  <b:if cond='data:title'><h2><data:title/></h2></b:if>
+  <div class='widget-content'>
+    <!-- Content is going to be visible when data will be fetched from server. -->
+    <div expr:id='data:widget.instanceId + &quot;_content&quot;' style='display: none;'>
+      <!-- Counter and image will be injected later via AJAX call. -->
+      <b:if cond='data:showSparkline'>
+        <img alt='Sparkline' expr:id='data:widget.instanceId + &quot;_sparkline&quot;' height='30' width='75'/>
+      </b:if>
+      <b:if cond='data:showGraphicalCounter'>
+        <span class='counter-wrapper graph-counter-wrapper' expr:id='data:widget.instanceId + &quot;_totalCount&quot;'/>
+      <b:else/>
+        <span class='counter-wrapper text-counter-wrapper' expr:id='data:widget.instanceId + &quot;_totalCount&quot;'/>
+      </b:if>
+      <b:include name='quickedit'/>
+    </div>
+  </div>
+</b:includable>
+            </b:widget>
+          </b:section>                        
+  </aside> <!-- sidebar -->
+
+</div> <!-- layout -->
+  </div> <!-- body -->
+
+
+<div id='footerwrap'>
+    
+    			<footer class='pagewidth clearfix' id='footer'>
+			
+			<p class='back-top'>
+              <a href='#header'>Back to Top<img src='http://2.bp.blogspot.com/-SwTEvxePWJg/Un2EpFu7VQI/AAAAAAAACE8/U2w39nYlrFc/s1600/Arrowhead-Top-128.png' style='float: left; margin-top: -31px; margin-right: -208px; width: 35px; margin-left: 23px;'/></a>
+			</p>
+
+			
+	<div class='footer-widgets clearfix'>
+
+<div class='col3-1 first'>
+      <b:section class='futer' id='futer' showaddelement='yes'>
+        <b:widget id='HTML3' locked='false' title='' type='HTML'>
+          <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+        </b:widget>
+      </b:section>
+      </div>
+
+<div class='col3-1 '>
+<b:section class='futer' id='futer1' showaddelement='yes'>
+  <b:widget id='HTML6' locked='false' title='' type='HTML'>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+</b:section>
+      </div>
+<div class='col3-1 '>
+<b:section class='futer' id='futer2' showaddelement='yes'/>
+      </div>
+
+
+
+		
+	</div>
+	<!-- /.footer-widgets -->
+
+
+			<div class='social-widget'>
+					<div class='widget templateify-social-links' id='templateify-social-links-2'><ul class='social-links'>
+
+
+						<!-- /templateify-link-item -->
+						<li class='social-link-item facebook'>
+                          <a href='https://www.facebook.com/smalltown20110306' target='_blank'><img src='http://3.bp.blogspot.com/-IxAOe_QLvFQ/Un0SvuvbbDI/AAAAAAAACEA/oHTWPs7Ufro/s1600/fb.png' style='width:11px;'/> </a>
+						</li>
+						<!-- /templateify-link-item -->
+						<li class='social-link-item google-plus'>
+							<a href='https://plus.google.com/108368491409852923303' target='_blank'><img src='http://4.bp.blogspot.com/-XmyGYMygs9o/Un0SvgM40KI/AAAAAAAACDg/COyxvH2hqDQ/s1600/gplus.png'/> </a>
+						</li>
+						<li class='social-link-item twitter'>
+                          <a href='http://www.plurk.com/smalltown20110306' target='_blank'><img src='https://lh6.googleusercontent.com/HDXvaWRvIEGWJbPdkIQPRqqqF8uifV_xeaa8Yrve1Pzd=w221-h207-p-no'/> </a>
+						</li>
+
+						<!-- /templateify-link-item --></ul></div>
+											<div class='rss'>
+							<a class='hs-rss-link' href='http://feeds.feedburner.com/smalltown20110306' target='_blank'>
+                              <img src='http://4.bp.blogspot.com/-_CGKR4_jhiw/Un0SwTu7y8I/AAAAAAAACDs/qIaAE0_685U/s1600/rss.png' style='width:20px;'/>
+							</a>
+						</div>
+									</div>
+				<!-- /.social-widget -->
+
+			<div class='footer-nav-wrap'>
+				<ul class='footer-nav' id='footer-nav'>
+<li class='menu-item menu-item-type-taxonomy menu-item-object-category menu-item-103' id='menu-item-103'><a href='data:blog.homepageUrl'>首頁</a></li>
+<li class='menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102' id='menu-item-102'><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%E5%8F%B0%E5%8C%97'>台北食記</a></li>
+<li class='menu-item menu-item-type-taxonomy menu-item-object-category menu-item-105' id='menu-item-105'><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%E9%AB%98%E9%9B%84'>高雄食記</a></li>
+<li class='menu-item menu-item-type-taxonomy menu-item-object-category menu-item-104' id='menu-item-104'><a href='http://theanusblog.blogspot.com/search/label/%5B%E9%A3%9F%E8%A8%98%5D%E6%A1%83%E5%9C%92'>桃園食記</a></li>
+<li class='menu-item menu-item-type-post_type menu-item-object-page menu-item-101' id='menu-item-101'><a href='http://theanusblog.blogspot.tw/2007/05/blog-post.html'>關於小城</a></li>
+<li class='menu-item menu-item-type-post_type menu-item-object-page menu-item-99' id='menu-item-99'><a href='http://theanusblog.blogspot.tw/2007/05/blog-post.html'>聯絡我</a></li>
+</ul>			</div>
+	
+			<div class='footer-text clearfix'>
+
+
+
+              <!-- Remove this credits by purchasing the licensed version here: https://sellfy.com/p/WoRR/ -->
+
+
+				<div class='one'> &#169; 2013 <data:blog.title/></div>				<div class='two'>Designed by <a href='http://www.templateify.com' id='templateify'>Templateify</a> Sponsored By <a href='http://www.templateify.com/p/sponsorship.html' id='sponsorship'>Your Link Here</a></div>			</div>
+			<!-- /footer-text --> 
+					</footer>
+		<!-- /#footer --> 
+        	</div>
+	<!-- /#footerwrap -->
+	
+</div>
+<!-- /#pagewrap -->
+
+
+<!-- wp_footer -->
+
+
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var themifyScript = {"lightbox":{"lightboxSelector":".lightbox","lightboxOn":true,"lightboxContentImages":false,"lightboxContentImagesSelector":".post-content a[href$=jpg],.page-content a[href$=jpg],.post-content a[href$=gif],.page-content a[href$=gif],.post-content a[href$=png],.page-content a[href$=png],.post-content a[href$=JPG],.page-content a[href$=JPG],.post-content a[href$=GIF],.page-content a[href$=GIF],.post-content a[href$=PNG],.page-content a[href$=PNG],.post-content a[href$=jpeg],.page-content a[href$=jpeg],.post-content a[href$=JPEG],.page-content a[href$=JPEG]","theme":"pp_default","social_tools":false,"allow_resize":true,"show_title":false,"overlay_gallery":false,"screenWidthNoLightbox":600,"deeplinking":false,"contentImagesAreas":".post, .type-page, .type-highlight, .type-slider","gallerySelector":".gallery-icon > a[href$=jpg],.gallery-icon > a[href$=gif],.gallery-icon > a[href$=png],.gallery-icon > a[href$=JPG],.gallery-icon > a[href$=GIF],.gallery-icon > a[href$=PNG],.gallery-icon > a[href$=jpeg],.gallery-icon > a[href$=JPEG]","lightboxGalleryOn":true},"lightboxContext":"#pagewrap","fixedHeader":"fixed-header","ajax_nonce":"d9c0b18b28","ajax_url":"http:\/\/themify.me\/demo\/themes\/magazine\/wp-admin\/admin-ajax.php","events":"mouseenter"};
+/* ]]> */
+</script>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'/>
+<script src='https://googledrive.com/host/0B-UFNCskEl7QRnNWcTFTTWVuNUk'/>
+  <script src='http://googledrive.com/host/0B-UFNCskEl7QWHlkY0ZDX1gxN28' type='text/javascript'/>
+
+
+
+
+<!--Page Navigation Starts-->
+<b:if cond='data:blog.pageType != &quot;item&quot;'>
+<b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+<script type='text/javascript'>
+var pageCount=5;
+var displayPageNum=5;
+var upPageWord =&#39;Previous&#39;;
+var downPageWord =&#39;Next&#39;;
+</script>
+  <script src='https://googledrive.com/host/0B-UFNCskEl7QeG5JbXRIT09TbW8' type='text/javascript'/>
+</b:if>
+</b:if>
+<!--Page Navigation Ends -->
+
+  <b:include data='blog' name='google-analytics'/>
+
+
+</body>
+</HTML>
